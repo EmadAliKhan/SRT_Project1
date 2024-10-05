@@ -25,7 +25,7 @@ const ContactUs = () => {
   //Getting data using react-hook-form
   const { register, handleSubmit } = useForm();
   const onSubmitHandler = async (Message) => {
-    console.log("Message", Message);
+    // console.log("Message", Message);
     if (!Message) {
       notifyError("🦄 Fill all the fields!");
     }
