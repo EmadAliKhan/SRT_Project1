@@ -141,7 +141,7 @@ const ContactUs = () => {
                   <TextField
                     required
                     label="Phone Number"
-                    {...register("number")}
+                    {...register("phoneNumber")}
                     placeholder="Phone No."
                     variant="outlined"
                     fullWidth

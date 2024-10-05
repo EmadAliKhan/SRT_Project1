@@ -10,7 +10,7 @@ app.use(cors());
 
 //Routes
 import ContactRoute from "./routes/Contact.route.js";
-app.use("api/v1", ContactRoute);
+app.use("/api/v1", ContactRoute);
 // http://localhost:8001/api/v1/message
 
 export { app };
